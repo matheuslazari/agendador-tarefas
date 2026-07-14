@@ -3,12 +3,9 @@ package com.matheus.agendadortarefas.infraestructure.security;
 
 import com.matheus.agendadortarefas.business.dto.UsuarioDTO;
 import com.matheus.agendadortarefas.infraestructure.security.client.UsuarioClient;
-import com.matheus.usuario.infraestructure.entity.Usuario;
-import com.matheus.usuario.infraestructure.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
